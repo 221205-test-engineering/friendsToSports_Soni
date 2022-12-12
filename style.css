@@ -1,0 +1,39 @@
+.ugly{    
+    font-size: large;
+    color: rgb(241, 66, 7);
+}
+
+.parent {
+    display: flex;
+    /* border: 1px solid black;     */
+    padding: 2rem 2rem;   
+} 
+.child {
+    flex:1;
+    display: inline-block;    
+    border: 2px solid blueviolet;
+    margin: 10px;
+    padding: 1rem 1rem;    
+} 
+.sports{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(28, 93, 28);
+}
+#image{
+    max-width: 100%;
+    height:auto; 
+}
+.purchase{
+    padding: 15px;
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(89, 103, 223)
+}
+#frd_img{
+    margin: 30px;
+    max-width: 100%;
+    height: 250px;
+}
