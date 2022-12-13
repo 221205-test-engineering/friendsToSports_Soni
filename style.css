@@ -48,3 +48,8 @@
     top:0;
     right:0;
 }
+.foot{
+    text-align: center;
+    color:rgb(132, 95, 3);
+    font-size: small;
+}

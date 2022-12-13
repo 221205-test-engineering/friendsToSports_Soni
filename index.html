@@ -9,7 +9,7 @@
         .parent{
             margin: 30px, 30px;
             width: flex;
-            height: 550px;
+            height:auto;
             background-image: url(firefox.png), url(bubbles.png), linear-gradient(to right, rgb(54, 30, 115), rgba(255, 255, 255, 0));
             background-repeat: no-repeat, no-repeat, no-repeat;
             background-position: bottom right, left, right;
@@ -18,19 +18,22 @@
             font-size: large;
             color:rgb(213, 200, 183)";
         }
+        .content{
+            margin:1rem;
+            padding: 1rem;;
+        }
        
     </style>
     <title>Friendship</title>
 </head>
-<body>
-    
+<body>    
     <h1 style = "color:rgb(172, 6, 133); text-align: center;"> Friendship  </h1>
     <div class = "parent">
         <div>
             <img id = "frd_img" src="images/friends.png">
         </div>
         <div>
-            <table>
+            <table class="content">
                 <tr>
                     <td>
                     <ul id = "mystyle">
@@ -53,5 +56,16 @@
             </table>
         </div>
     </div>
+    <footer class="foot">
+        <div class="footer_image" style="display: inline-flex;">
+            <div>
+                <p>© 2018 Kiddy's Sports </p>
+            </div>
+            <div>
+                <img style="width: 6em; height: 1.5em;margin-top: 1em;margin-left: 2em;" 
+                src="images/insta_logo.png">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
