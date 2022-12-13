@@ -47,6 +47,10 @@
     position:absolute;
     top:0;
     right:0;
+    
+}
+a:link, :visited, :hover, :active{
+    text-decoration: none;    
 }
 .foot{
     text-align: center;
